@@ -31,6 +31,9 @@ app.use('/login', loginRoute); // Route for user login
 app.use('/booking', bookingRoute); // Route for handling bookings
 app.use('/contact', contactRoute); // Route for handling contact submissions
 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Minor Project!');
+});
 // Start the server and listen on the specified port
 app.listen(port, () => {
   console.log(`Server running on port ${port}`); // Log message when server is running
