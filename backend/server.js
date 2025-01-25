@@ -5,7 +5,7 @@ const cors = require('cors');               // Import cors middleware to allow c
 require('dotenv').config();
 
 
-// Import route handlers for different endpoints
+// Import route handlers for different endpoints.
 const signupRoute = require('./routes/signup');
 const loginRoute = require('./routes/login');
 const bookingRoute = require('./routes/booking');
