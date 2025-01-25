@@ -31,7 +31,7 @@ export default function Contact() {
 
     try {
         // Send data to your server using fetch
-        const response = await fetch("http://localhost:5000/contact", {
+        const response = await fetch("https://restaurant-project-jda4.onrender.com/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

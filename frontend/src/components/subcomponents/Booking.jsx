@@ -30,7 +30,7 @@ function Booking() {
         const dataToSubmit = { ...formData, bookingCode };
     
         try {
-            const response = await fetch("http://localhost:5000/booking", {
+            const response = await fetch("https://restaurant-project-jda4.onrender.com/booking", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

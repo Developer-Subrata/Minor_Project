@@ -251,7 +251,7 @@ html, body {
 
 /* Custom styles for the hero section */
 .hero-header {
-  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('bg-hero.jpg');
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url('/bg-hero.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -355,7 +355,7 @@ html, body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('bgc.jpg') no-repeat center center/cover;
+  background: url('/bgc.jpg') no-repeat center center/cover;
   padding: 20px;
 }
 
@@ -572,7 +572,7 @@ label {
 }
 
 .bodysign {
-  background-image: url("dark-kitchen.avif");
+  background-image: url("/dark-kitchen.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
